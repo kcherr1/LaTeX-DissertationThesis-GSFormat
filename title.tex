@@ -1,0 +1,32 @@
+% document class compatibility: memoir (and maybe others, not tested)
+% purpose: creates a title page
+
+\pagenumbering{alph}
+\setcounter{page}{1}
+\thispagestyle{empty}
+
+{\centering
+
+\newcommand{\smallspace}{\vspace{6 mm}}
+\newcommand{\largespace}{\vspace{68 mm}}
+
+{\Large \uppercase{[[title]]}} \\ \largespace
+
+A [[Dissertation OR Thesis]] \\ \smallspace
+
+Submitted to the Graduate Faculty of the \\
+Louisiana State University and \\
+Agricultural and Mechanical College \\
+in partial fulfillment of the \\
+requirements for the degree of \\
+[[Doctor of Philosophy OR Master of (degree)]] \\ \smallspace
+
+in \\ \smallspace
+
+The Department of [[Your department]] \\ \largespace
+
+by \\
+[[Your Name]] \\
+[[Past Degrees go here along with university and year]] \\
+[[Graduation month and year]] \\
+}
